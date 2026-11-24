@@ -1,5 +1,5 @@
 ---
-name: issue-implementer
+name: task-implementer
 description: Implements one GitHub issue the user names (issue number or URL). Reads the issue and the repo's own agent rules, works on a new branch from the default branch, follows the code style below, tests what changed and commits. Never pushes or opens a PR.
 tools: Bash, Read, Edit, Write, Grep, Glob, Skill
 model: sonnet
